@@ -17,29 +17,15 @@
 \frame{\titlepage}
 
 \begin{frame}
-  \frametitle{,,Osadnicy z Catanu''}
-  \begin{block}{Die Siedler von Catan}
-    Wieloosobowa gra planszowa wymyślona przez Klausa Teubera, wydana
-    po raz pierwszy w 1995.
-  \end{block}
-\end{frame}
-
-\begin{frame}
-  \frametitle{,,Osadnicy z Catanu'' - gra planszowa}
-  \begin{figure}
-    \includegraphics[width=\linewidth]{settlers.jpg}
-  \end{figure}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Cel pracy}
-  Aplikacja umożliwiająca prowadzenie wielu rozgrywek w grę ,,Osadnicy
-  z Catanu'', wykorzystująca:
+  \frametitle{Cel pracy} Zaprojektowanie i zaimplementowanie aplikacji
+  -- gry internetowej, umożliwiającej prowadzenie wielu rozgrywek,
+  przy wykorzystaniu:
   \begin{itemize}
   \item Ruby on Rails - implementacja serwera
   \item JavaScript - implementacja klienta
   \item HTTP Pull, zgodnie z REST - komunikacja
   \item relacyjną bazę danych
+  \item wolne oprogramowanie (licencja GNU Affero w wersji 3)
   \end{itemize}
 \end{frame}
 
@@ -54,11 +40,26 @@
   \item prawie nieograniczone możliwości rozwoju
     % niezliczona ilość dodatków, modyfikacji (kilka oficjalnych i
     % wiele nieoficjalnych)
-  \item dość duży stopień skomplikowania
+  \item wysoki stopień skomplikowania gry -- wiele aspektów
     % nie chodzi o skomplikowanie rozgrywki (ciężko byłoby konkurować
     % z szachami czy brydżem) a ilość elementów, które należy
     % zaimplementować
   \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{,,Osadnicy z Catanu''}
+  \begin{block}{Die Siedler von Catan}
+    Wieloosobowa gra planszowa wymyślona przez Klausa Teubera, wydana
+    po raz pierwszy w 1995.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{,,Osadnicy z Catanu'' - gra planszowa}
+  \begin{figure}
+    \includegraphics[width=\linewidth]{settlers.jpg}
+  \end{figure}
 \end{frame}
 
 \begin{frame}
@@ -81,10 +82,6 @@
   \begin{itemize}
   \item prostota
   \item zmiana sposobu projektowania aplikacji
-\begin{verbatim}
-user.add_permission("write")
-user.persmissions.create("write")
-\end{verbatim}
   \item nie narzuca formatu wymiany danych
   \item umożliwia używanie wielu formatów jednocześnie
   \end{itemize}
@@ -135,19 +132,19 @@ user.persmissions.create("write")
 \end{frame}
 
 \begin{frame}
-  \frametitle{Rezultaty}
+  \frametitle{Osiągnięte rezultaty}
   \begin{itemize}
   \item zaimplementowane zostały wszystkie elementy gry
     % takie jak handel, karty rozwoju
-  \item wymaga jeszcze dużej ilości pracy
-    % w szczególności część kliencka - uporządkowanie kodu,
-    % zaprojektowanie grafiki i layoutu, przekracza to możliwości
-    % jednej osoby
   \item możliwe jest logowanie użytkowników, tworzenie gier,
     dołączanie do nich i przeprowadzanie rozgrywek
     % czyli wszystkie najistotniejsze elementy, przy czym sama
     % rozgrywka nie należy do najprzyjemniejszych - należałoby
     % poprawić interfejs użytkownika
+  \item zastosowane rozwiązania stanowią bazę do uruchomienia serwisu
+    oferującego sieciowe rozgrywki
+    % możliwości rozbudowy - przyjazny interfejs użytkownika,
+    % statystyki, turnieje, czat
   \end{itemize}
 \end{frame}
 
@@ -167,13 +164,12 @@ user.persmissions.create("write")
     % gra musiała zostać rozdzielona na ponad 10 tabel, wymaga
     % częstych złączeń. Zdecydowanie lepiej byłoby użyć bazy danych
     % zorientowanej dokumentowo, takiej jak MongoDB
-  \item tworzenie dużych aplikacji w języku JavaScript wymaga sporej
+  \item tworzenie dużych aplikacji w języku JavaScript wymaga większej
     wprawy (pomogła nieco zmiana biblioteki na \emph{YUI})
     % pół roku nie wystarcza, żeby opanować ten język w stopniu
     % umożliwiającym zaprojektowanie i zaimplementowanie tak dużej
     % aplikacji, w jQuery brakuje wielu przydatnych elementów
   \end{itemize}
 \end{frame}
-
 
 \end{document}

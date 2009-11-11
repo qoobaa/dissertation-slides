@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.10.31)  11 NOV 2009 21:48
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.10.31)  11 NOV 2009 22:38
 entering extended mode
  %&-line parsing enabled.
 **\input prezentacja.tex
@@ -1006,30 +1006,30 @@ Overfull \hbox (49.69269pt too wide) has occurred while \output is active
 
 [2
 
-] <settlers.jpg, id=85, 1161.33875pt x 770.88pt>
-File: settlers.jpg Graphic file (type jpg)
- <use settlers.jpg>
+]
 Overfull \hbox (49.69269pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [3
 
- <./settlers.jpg>]
+]
 Overfull \hbox (49.69269pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [4
 
-]
+] <settlers.jpg, id=139, 1161.33875pt x 770.88pt>
+File: settlers.jpg Graphic file (type jpg)
+ <use settlers.jpg>
 Overfull \hbox (49.69269pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [5
 
-]
+ <./settlers.jpg>]
 Overfull \hbox (49.69269pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1039,11 +1039,7 @@ Overfull \hbox (49.69269pt too wide) has occurred while \output is active
 ]
 \openout3 = `prezentacja.vrb'.
 
- (./prezentacja.vrb
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 5.
- (/usr/share/texmf-texlive/tex/latex/platex/ot4cmtt.fd
-File: ot4cmtt.fd 2000/10/09 v1.2 Font defs for fonts PL (MW)
-))
+ (./prezentacja.vrb)
 Overfull \hbox (49.69269pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1078,7 +1074,7 @@ Overfull \hbox (49.69269pt too wide) has occurred while \output is active
 
 [11
 
-] <board.png, id=324, 567.11874pt x 618.31pt>
+] <board.png, id=323, 567.11874pt x 618.31pt>
 File: board.png Graphic file (type png)
  <use board.png>
 Overfull \hbox (49.69269pt too wide) has occurred while \output is active
@@ -1089,7 +1085,7 @@ Overfull \hbox (49.69269pt too wide) has occurred while \output is active
 
  <./board.png (PNG copy)>]
 LaTeX Font Info:    Font shape `OT4/cmss/m/it' in size <12> not available
-(Font)              Font shape `OT4/cmss/m/sl' tried instead on input line 176.
+(Font)              Font shape `OT4/cmss/m/sl' tried instead on input line 173.
 
 
 Overfull \hbox (49.69269pt too wide) has occurred while \output is active
@@ -1110,22 +1106,20 @@ Overfull \hbox (49.69269pt too wide) has occurred while \output is active
 
  (./prezentacja.aux) ) 
 Here is how much of TeX's memory you used:
- 11641 strings out of 95057
- 205006 string characters out of 1182778
- 283626 words of memory out of 1500000
- 14473 multiletter control sequences out of 10000+50000
- 7512 words of font info for 23 fonts, out of 1200000 for 2000
+ 11621 strings out of 95057
+ 204642 string characters out of 1182778
+ 282626 words of memory out of 1500000
+ 14457 multiletter control sequences out of 10000+50000
+ 7215 words of font info for 22 fonts, out of 1200000 for 2000
  48 hyphenation exceptions out of 8191
  41i,15n,57p,353b,545s stack positions out of 5000i,500n,6000p,200000b,5000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/pl/plrm.enc}{/u
-sr/share/texmf-texlive/fonts/enc/dvips/pl/pltt.enc}</usr/share/texmf-texlive/fo
-nts/type1/public/pl/plss12.pfb></usr/share/texmf-texlive/fonts/type1/public/pl/
-plss17.pfb></usr/share/texmf-texlive/fonts/type1/public/pl/plss8.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/pl/plssi12.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/pl/pltt12.pfb>
-Output written on prezentacja.pdf (13 pages, 708071 bytes).
+{/usr/share/texmf-texlive/fonts/enc/dvips/pl/plrm.enc}</u
+sr/share/texmf-texlive/fonts/type1/public/pl/plss12.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/pl/plss17.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/pl/plss8.pfb></usr/share/texmf-texlive/fonts/type1/public/pl/plssi12.pfb>
+Output written on prezentacja.pdf (13 pages, 701487 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
+ 398 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 131072)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

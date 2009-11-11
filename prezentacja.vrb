@@ -2,10 +2,6 @@
   \begin{itemize}
   \item prostota
   \item zmiana sposobu projektowania aplikacji
-\begin{verbatim}
-user.add_permission("write")
-user.persmissions.create("write")
-\end{verbatim}
   \item nie narzuca formatu wymiany danych
   \item umożliwia używanie wielu formatów jednocześnie
   \end{itemize}
